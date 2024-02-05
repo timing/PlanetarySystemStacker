@@ -94,6 +94,15 @@ interactive mode, and then check 'Automatic' to repeat the same for all other im
         self.dont_show_checkBox.setChecked(not self.configuration.global_parameters_display_quickstart)
         self.dont_show_checkBox.stateChanged.connect(self.checkbox_changed)
 
+        self.load_sequence_button.clicked.connect(self.load_sequence_clicked)
+        self.load_image_button.clicked.connect(self.load_image_clicked)
+
+    def load_sequence_clicked(self):
+        self.parent_gui.load_video_directory()
+
+    def load_image_clicked(self):
+        self.parent_gui.load_video_directory()
+
     def checkbox_changed(self):
         """
         This method is connected with the checkbox in the quickstart guide and with the menu
