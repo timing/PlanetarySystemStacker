@@ -1,3 +1,6 @@
+Note: Rolf and me and working together to merge my work into his official repository, my PR is getting ready here and is more up to date then this branch. Check it out here: https://github.com/Rolf-Hempel/PlanetarySystemStacker/pull/98
+
+
 # PlanetarySystemStacker (PSS)
 _Produce a sharp image of a planetary system object (moon, sun, planets) from many seeing-affected frames using the "lucky imaging" technique._
 
